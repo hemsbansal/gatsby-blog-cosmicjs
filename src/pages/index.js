@@ -15,7 +15,7 @@ class BlogIndex extends React.Component {
       'props.data.cosmicjsSettings.metadata.site_title'
     )
     const posts = get(this, 'props.data.allCosmicjsPosts.edges')
-    const author = get(this, 'props.data.cosmicjsSettings.metadata')
+    const author = "Hemant Bansal"
     const location = get(this, 'props.location')
 
     return (
